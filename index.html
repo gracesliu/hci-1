@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Major Compare Mock (iPhone)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="phone" aria-label="iPhone mock frame">
+      <div class="screen">
+        <div class="island" aria-hidden="true"></div>
+
+        <main class="content">
+          <header class="top-row">
+            <div class="pill pill--blue">MEAM <span class="caret" aria-hidden="true"></span></div>
+            <div class="swap" aria-hidden="true">↔︎</div>
+            <div class="pill pill--cream">CIS <span class="caret" aria-hidden="true"></span></div>
+          </header>
+
+          <section class="bar" aria-label="Compare majors button">
+            <span class="play" aria-hidden="true"></span>
+            Compare these majors!
+          </section>
+
+          <section class="venn-wrap" aria-label="Venn diagram">
+            <div class="circle circle--left">
+              MEAM 1010<br />
+              MEAM 1100<br />
+              MEAM 2030
+            </div>
+
+            <div class="circle circle--right">
+              CIS 1100<br />
+              CIS 1200<br />
+              CIS 1210
+            </div>
+
+            <div class="plus" aria-hidden="true">+</div>
+          </section>
+
+          <section class="completed" aria-label="Completed toggle">
+            <div class="toggle" aria-hidden="true"><div class="knob"></div></div>
+            Completed
+          </section>
+
+          <section class="search" aria-label="Add course search">
+            <div class="icon" aria-hidden="true">≡</div>
+            <div class="placeholder">Add Course for Comparison</div>
+            <div class="icon" aria-hidden="true">🔍</div>
+          </section>
+
+          <section class="table" role="table" aria-label="Course comparison table">
+            <div class="overlay overlay--blue" aria-hidden="true"></div>
+            <div class="overlay overlay--cream" aria-hidden="true"></div>
+
+            <div class="row" role="row">
+              <div class="course">ENGL 0040 <span class="tri" aria-hidden="true"></span></div>
+              <div class="col"><div class="check">✓</div></div>
+              <div class="col"><div class="check">✓</div></div>
+            </div>
+
+            <div class="row" role="row">
+              <div class="course">MATH 1410 <span class="tri" aria-hidden="true"></span></div>
+              <div class="col"><div class="check">✓</div></div>
+              <div class="col"><div class="check">✓</div></div>
+            </div>
+
+            <div class="row" role="row">
+              <div class="course">&nbsp;</div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+
+            <div class="row" role="row">
+              <div class="course">&nbsp;</div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
